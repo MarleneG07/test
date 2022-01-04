@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <title> CONTACTO </title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+        <p>INFORMACIÓN</p>
+        <h1>Contact Us</h1>
+
+</head>
+<body>
+
+    <form action="formulario.php" method="post">  
+        <div class="form">
+            <div class="wrapper">
+                <p>
+                    <label for="nombre" class="colocar_nombre">
+                    FIRST NAME
+                    <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio">
+
+                    <label for="apellido" class="colocar_apellido">
+                    LAST NAME
+                    <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_apellido" id="aplell" required="obligatorio">
+                </p>
+            
+                <p>
+                    <label for="email" class="colocar_email">
+                    EMAIL
+                    <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio">
+
+                    <label for="telefone" class="colocar_telefono">
+                    PHONE
+                    <span class="obligatorio">*</span>
+                    </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" required="obligatorio">
+                </p>
+</div>
+        	<dir>
+                <p class="full-width">
+                    <label for="mensaje" class="colocar_mensaje">
+                    MESSAGE
+                    <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio">
+                    </textarea>
+                </p>
+		
+                
+                <input type="checkbox" id="ofertas" name="ofertas">
+	            <label for="ofertas"> 
+			Send me offers & updates
+	            </label>
+                
+                <p>
+                    <button type="submit" name="enviar_formulario" id="enviar">
+                        <p>
+                            SEND MESSAGE
+                        </p>
+                    </button>
+                </p>
+		</dir>
+            </div>
+            
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14989.523747345333!2d-98.78117525!3d20.07635675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1641276806186!5m2!1ses-419!2smx" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+        </form>
+    </div>
+</body>
+</html>
